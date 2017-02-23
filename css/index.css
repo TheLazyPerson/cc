@@ -1,0 +1,493 @@
+@font-face {
+    font-family: FuturaLT;
+    src: url(../fonts/futura-lt.ttf);
+}
+
+@font-face {
+    font-family: FuturaLT-Book;
+    src: url(../fonts/futura-lt-book.ttf);
+}
+
+body{
+	background-color: #1e1e1e;	
+}
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.no-padding-left-right{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.margin-top-40{
+	margin-top: 40px;
+	margin-bottom: 40px; 
+}
+
+.margin-top-bottom-20{
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+.margin-top-10{
+	margin-top: 10px;
+}
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+.margin-top-bottom-10{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.center{
+	text-align: center;
+}
+.navigation{
+	height: 100px;
+	margin-top: 30px;
+	opacity: 0.83;
+  	background-color: #000000;
+  	border-color: transparent;
+  	border-radius: 0px;
+}
+#wrapper{
+	height: 100vh;
+}
+#about-wrapper{
+	height: 70vh;
+}
+.navbar-default .navbar-nav>li>a {
+	 font-family: FuturaLT;
+	  font-size: 18px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 70px;
+	  letter-spacing: normal;
+	  color: #fbfac6;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover{
+	
+	font-weight: bold;
+}
+
+.navbar-brand img{
+	max-height: 70px;
+}
+.navbar-nav li a {
+    line-height: 100px;
+}
+
+#founders-message {
+	background-color: #1e1e1e;
+}
+#founders-message{
+	font-family: FuturaLT;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+
+#our-vision{
+	background-color: #ffffff;
+}
+
+
+
+#our-vision h2{
+	font-family: FuturaLT-Book;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #1e1e1e;
+}
+
+#our-vision h3{
+	font-family: FuturaLT;
+  	font-size: 24px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	color: #1e1e1e;
+}
+
+#our-vision p {
+	font-family: FuturaLT;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.1px;
+	color: #1e1e1e;
+}
+
+#team{
+
+	background-color: #1e1e1e;
+}
+
+#team h2{
+	font-family: FuturaLT-Book;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+
+#team h4{
+	font-family: FuturaLT-Book;
+	font-size: 30px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+#team h5{
+	font-family: FuturaLT;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.1px;
+	color: #ffffff;
+}
+
+/* Careers page */
+#careers{
+	background-color: #1e1e1e;
+}
+#careers p{
+	font-family: FuturaLT-Book;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+#careers-header{
+	font-family: FuturaLT;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+
+.career .view-more {
+    background-color: #ffc327 !important;
+    width: 230px;
+    border: none !important;
+    border-radius: 0px !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+   
+    font-family: FuturaLT;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	color: #1e1e1e;
+}
+
+.career h4{
+	font-family: FuturaLT;
+	font-size: 24px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	color: #ffffff;
+}
+
+.career span{
+	font-family: FuturaLT-Book;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	color: #ffffff;
+}
+
+/*
+Contact Us Section
+ */
+#contact-us{
+
+	background-color: #1e1e1e;
+}
+#contact-us p{
+	font-family: FuturaLT-Book;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+#contact-us h4{
+	font-family: FuturaLT-Book;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+#contact-us label{
+	font-family: FuturaLT-Book;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+#contact-us input,
+#contact-us textarea{
+	background-color: transparent ;
+    border-bottom: 1px solid #ffffff !important;
+    border: none;
+    border-radius: 0px;
+}
+
+#contact-us input:focus,
+#contact-us textarea:focus{
+	box-shadow: none !important;
+}
+
+#contact-us .submit-button{
+	background-color: #ffc327 !important;
+    width: 230px;
+    border: none !important;
+    border-radius: 0px !important;
+    padding-top: 14px;
+    padding-bottom: 14px;
+   
+    font-family: FuturaLT-Book;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.3px;
+	color: #1e1e1e;
+}
+
+/*
+Projects Section
+
+ */
+#happy-families{
+	position: relative;
+	top:-71px;
+}
+#happy-families h3{
+  font-family: FuturaLT;
+  font-size: 81px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  color: #1e1e1e;
+}
+#happy-families h4{
+	font-family: FuturaLT-Book;
+	font-size: 28px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 111px;
+	letter-spacing: 1.4px;
+	color: #1e1e1e;
+}
+
+#happy-families .row{
+	object-fit: contain;
+  	background-image: linear-gradient(to bottom, #ffe23d, #ffbe23);
+}
+
+#upcoming-projects h2{
+	font-family: FuturaLT-Book;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+
+#upcoming-projects{
+
+}
+#section-cutter hr{
+	 border: solid 2px #ffc327;
+}
+/*
+Testinmonials Section
+ */
+#testimonial{
+	background-color: #1e1e1e;
+}
+#testimonial p{
+	font-family: FuturaLT-Book;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+#testimonial-data{
+	height: 80vh;
+}
+#testimonial-data h2{
+	font-family: FuturaLT-Book;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+#testimonial-data h4.test{
+	font-family: FuturaLT-Book;
+	font-size: 30px;
+	font-weight: normal;
+	font-style: oblique;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+
+#testimonial-data h4.author{
+	font-family: FuturaLT-Book;
+	font-size: 40px;
+	font-weight: normal;
+	font-style: oblique;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+}
+
+
+/*Footer Section*/
+
+footer{
+
+	background-color: #1e1e1e;
+}
+
+.footer-logo img{
+	margin-left: auto;
+}
+footer .nav-pills>li>a{
+	font-family: FuturaLT;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #fbfac6;
+}
+
+footer .nav-pills>li>a:focus,
+footer .nav-pills>li>a:hover{
+
+	font-weight: bold;
+	background-color: transparent;
+
+
+}
+
+footer .nav-pills>li.active>a, 
+footer .nav-pills>li.active>a:focus, 
+footer .nav-pills>li.active>a:hover{
+	background-color: transparent;
+	color: #fbfac6;
+}
+
+footer h4{
+	font-family: FuturaLT;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.6px;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+footer hr{
+	border: solid 1px #979797;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+footer h5{
+	font-family: FuturaLT;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.6px;
+	color: #ffffff;
+}
+
+footer h6{
+	font-family: FuturaLT;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.6px;
+	color: #ffffff;
+}
