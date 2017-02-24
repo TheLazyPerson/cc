@@ -55,6 +55,7 @@ body{
   	background-color: #000000;
   	border-color: transparent;
   	border-radius: 0px;
+	z-index:100;
 }
 #wrapper{
 	height: 100vh;
@@ -491,3 +492,4 @@ footer h6{
 	letter-spacing: 0.6px;
 	color: #ffffff;
 }
+
