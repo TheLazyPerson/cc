@@ -34,6 +34,10 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px; 
 }
+
+.margin-bottom-80{
+	margin-bottom: 80px; 
+}
 .margin-top-10{
 	margin-top: 10px;
 }
@@ -490,4 +494,30 @@ footer h6{
 	line-height: normal;
 	letter-spacing: 0.6px;
 	color: #ffffff;
+}
+
+#herotext {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+#herotext h1 {
+    text-transform: uppercase;
+    font-family: FuturaLT-Book;
+	font-size: 70px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+#hero-wrapper {
+    display: table;
+}
+#hero-wrapper {
+    height: 40vh;
+    width: 100%;
 }
