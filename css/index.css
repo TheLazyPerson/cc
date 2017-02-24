@@ -59,6 +59,7 @@ body{
   	background-color: #000000;
   	border-color: transparent;
   	border-radius: 0px;
+	z-index:100;
 }
 #wrapper{
 	height: 100vh;
